@@ -10,6 +10,7 @@
           <div class="relative">
             <div class="absolute index-1">
               <v-alert
+                ref="successMsg"
                 v-model="isSentSuccessfully"
                 type="success"
                 transition="scale-transition"
@@ -311,6 +312,9 @@ export default {
         this.timeDate = dayjs().utcOffset(tz).format('YYYY-MM-DD HH:mm:ss')
         this.isSentSuccessfully = true
         this.$refs.contactForm.reset()
+        this.$nextTick(() => {
+          this.$vuetify.goTo(this.$refs.successMsg)
+        })
       }, 1000)
     },
     handleMobileCountryChange(value) {
