@@ -1,0 +1,48 @@
+{
+  "common": {
+    "about-us": "About Us",
+    "address": "Address",
+    "address-1": "Um Uthainah, Saeed Abu Jaber St. 5, Amman 11941",
+    "contact-us": "Contact Us",
+    "country": "Country",
+    "currencies": "Currencies",
+    "email": "Email",
+    "first-name": "First Name",
+    "home": "Home",
+    "last-name": "Last Name",
+    "latest-countries": "Latest Countries",
+    "letters": "Letters",
+    "login": "Login",
+    "lorem-2": "      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non       eleifend enim. Nam vehicula ut urna ac iaculis. Praesent non magna dui.       Morbi vitae dictum dolor, ultrices imperdiet sapien. Praesent iaculis       lectus at consequat lobortis. Ut eu ex id urna tempor mollis.",
+    "message": "Message",
+    "mobile": "Mobile",
+    "name": "Name",
+    "reach-us": "Reach Us",
+    "sign-up": "Sign Up",
+    "submit": "Submit",
+    "telephone": "Telphone",
+    "under-construction": "Under Construction",
+    "website": "Website"
+  },
+  "errors": {
+    "field": {
+      "lessThanMin": "The {field} must be more than {min}",
+      "lessThanTo": "The field \"from\" should be less than \"to\" field",
+      "notInteger": "The {field} must be an integer.",
+      "notNumeric": "The {field} must be numeric.",
+      "notValid": "The \"{field}\" is not in correct format."
+    },
+    "maxLength": {
+      "exeeded": "Max {length} characters allowed."
+    },
+    "minLength": {
+      "lagged": "Min {length} characters."
+    },
+    "required": {
+      "empty": "The {field} is required."
+    }
+  },
+  "success": {
+    "contact-us-sent": "“Thank you! your message has been sent at {timeDate}, the time zone is TC {tz}\"."
+  }
+}
