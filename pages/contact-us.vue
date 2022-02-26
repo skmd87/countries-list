@@ -22,7 +22,7 @@
               </v-alert>
             </div>
           </div>
-          <v-form v-model="isFormValid">
+          <v-form ref="contactForm" v-model="isFormValid">
             <v-row dense align="baseline">
               <v-col v-bind="labelCol">
                 <label>{{ $t('common.first-name') }}</label>
@@ -310,6 +310,7 @@ export default {
 
         this.timeDate = dayjs().utcOffset(tz).format('YYYY-MM-DD HH:mm:ss')
         this.isSentSuccessfully = true
+        this.$refs.contactForm.reset()
       }, 1000)
     },
     handleMobileCountryChange(value) {
